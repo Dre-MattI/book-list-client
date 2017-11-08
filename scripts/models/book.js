@@ -6,6 +6,7 @@ var app = app || {};
     Object.keys(rawDataObj).forEach(key => this[key] = rawDataObj[key]);
   }
   var __API_URL__ = 'https://mi-ai-booklist.herokuapp.com';
+  // 'http://localhost:3000';
   Book.all = [];
 
   Book.prototype.toHtml = function() {
@@ -18,7 +19,7 @@ var app = app || {};
   };
 
   Book.fetchAll = callback => {
-    $.get(`${__API_URL__}api/v1/books`)
+    $.get(`${__API_URL__}/api/v1/books`)
       .then(results => {
         Book.loadAll(results);
         callback();
