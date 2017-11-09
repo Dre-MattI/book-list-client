@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/modules/footer.css">
     <link rel="stylesheet" href="styles/modules/form-main.css">
     <link rel="stylesheet" href="styles/modules/header.css">
-    <title>What is this again?</title>
+    <title>Book List</title>
 
     <script id="book-template" type="text/x-handlebars-template">
       <article class="clearfix">
@@ -42,8 +42,14 @@
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="scripts/models/book.js"></script>
-    <script src="scripts/views/book-view.js"></script>
+    <script src="scripts/views/book-views.js"></script>
+    <script src="scripts/views/admin-view.js"></script>
+    <script src="scripts/views/error-view.js"></script>
+    <script src="scripts/views/routes.js"></script>
+
+    </script>
     <script>
       app.Book.fetchAll(app.bookView.initIndexPage);
     </script>
