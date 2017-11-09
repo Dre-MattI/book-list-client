@@ -43,13 +43,13 @@ const __API_URL__ = 'https://mi-ai-booklist.herokuapp.com/';
         $('#display').empty();
         $('#display').append(Book.addDescription(data[0]));
       })
-  };
-
-  Book.prototype.insertRecord = function(callback) {
+  }
+  Book.insertRecord = callback => {
     $.post(`${__API_URL__}newbook/`, {title: this.title, author: this.author, isbn: this.isbn, image_url: this.image_url, description: this.description})
       .then(console.log)
-      .then(callback)
+      .then(callback);
   };
+
 
   module.Book = Book;
 })(app);
