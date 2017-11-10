@@ -38,8 +38,7 @@ var app = app || {};
       image_url: $('#update-img-url').val(),
       description: $('#update-description').val(),
     });
-    console.log(book);
-    app.Book.all = []; ////?????/////////
+    app.Book.all = [];
     book.updateRecord($('#update-button').data('id'));
     window.location = '/';
   }
