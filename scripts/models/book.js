@@ -69,6 +69,7 @@ const __API_URL__ = 'https://mi-ai-booklist.herokuapp.com/';
   };
 
   Book.prototype.updateRecord = function(id) {
+    console.log(id);
     $.ajax({
       url: `${__API_URL__}book/update/${id}`,
       method: 'PUT',
