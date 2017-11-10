@@ -60,7 +60,8 @@ textarea {
   margin: auto;
   width: 70vw;
   height: 20vw;
-  padding: 5px:
+  padding: 5px;
+  font-family: inherit;
 }
 
 body {
