@@ -12,7 +12,7 @@
   padding-right: 30px;
 }
 
-.main-nav:hover ul li {
+/*.main-nav:hover ul li {
   display: inline-block;
   margin: 0;
   list-style: none;
@@ -20,4 +20,49 @@
   padding: 30px 30px 0 0;
   font-size: 1.6em;
   width: auto;
+}*/
+
+#new-book {
+  border-radius: 15px;
+  background-color: #C14242;
+  margin: 25px;
+
+}
+
+#book-entry {
+  font-size: 5vw;
+  margin: 5vw;
+}
+button {
+  font-family : inherit;
+  font-size   : 100%;
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 25vw;
+  height  : 10vw;
+  border-radius: 10%;
+}
+
+input {
+  font-family : inherit;
+  font-size: 50%;
+  display : inline-block;
+  padding : 10px;
+  width   : 40vw;
+  height  : 5vw;
+  margin: 3%;
+  border-radius: 5%;
+}
+
+textarea {
+  display: block;
+  border-radius: 5%;
+  margin: auto;
+  width: 70vw;
+  height: 20vw;
+  padding: 5px:
+}
+
+body {
+  background-color: #F3F1F1;
 }

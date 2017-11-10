@@ -22,16 +22,15 @@
  }
 
  .book-img {
-   max-height: 15em;
+   max-height: 30em;
    overflow: hidden;
+}
 
+ img {
+   width: 75%;
+   object-fit: cover;
  }
 
- /*img {
-   width: 70%;
-   object-fit: cover;
- }*/
-
  .books {
-   margin-bottom: 5vw;
+   margin-bottom: 15vw;
  }
