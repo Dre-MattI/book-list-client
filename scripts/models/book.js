@@ -2,12 +2,18 @@
 'use strict';
 var app = app || {};
 <<<<<<< HEAD
+<<<<<<< HEAD
 const __API_URL__ = 'https://ml-ap-booklist.herokuapp.com/';
 // const __API_URL__ = 'http://localhost:3000/';
 =======
 const __API_URL__ = 'https://mi-ai-booklist.herokuapp.com';
 // const __API_URL__ = 'http://172.16.3.126:3000/';
 >>>>>>> 81fdec59243a46905aecbb73907c6c0a222cae75
+=======
+
+const __API_URL__ = 'https://mi-ai-booklist.herokuapp.com';
+// const __API_URL__ = 'http://172.16.3.126:3000/';
+>>>>>>> ef443d0a1b8736d198cf04010e2538fa6a68fee1
 
 ((module) => {
   Book.all = [];
